@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Setting Css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/**************Setting List**************/
+.setting-list{
+	
+}
+.setting-list li{
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	padding: 8px 8px 8px 8px;
+	overflow: hidden;
+	background-image: url(../images/item-arrow.png);
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+	-webkit-background-size: 18px !important;
+	background-size: 18px !important;
+	-webkit-background-origin: content-box;
+	background-origin: content-box;
+}
+.setting-list li:active{
+	background-color: #ccc;		
+}
+.setting-list li i{
+	float: left;
+	width: 36px;
+	height: 36px;
+	background-color: #eee;	
+}
+.setting-list li div{
+	margin-left: 36px;	
+	margin-top: 6px;
+	padding-left: 8px;	
+}
+.setting-list li div label{
+	color: #aaa;
+	font-size: 12px;
+	margin-left: 8px;
+}
+/*
+.setting-list li span{
+	position: absolute;
+	top: 18px;
+	right: 30px;
+}
+*/]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

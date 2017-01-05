@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Avatar" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="avatar-wrap">
+  <i class="avatar" style="background-image:url(images/avatar.png);"></i>
+  <span>Donald J. Trump<em>@realDonaldTrump</em></span>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

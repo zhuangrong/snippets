@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tabs Css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*flex-tab*/
+.flex-tab ul{
+	display: -webkit-box; 
+	display: -webkit-flex;
+	display: flex;
+}
+.flex-tab li{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+  flex:1;
+	width:0%;/*必须有*/
+	height:30px;
+	text-align:center;
+	border:1px solid #eee;
+}
+.flex-tab li.curr{
+	background-color: #eee;
+	color: #00f;
+}
+div[class*="tab-box"] > div:not(:first-child){
+	display:none
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

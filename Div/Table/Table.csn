@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Table" description="表格">
+<insertText location="beforeSelection">
+<![CDATA[table.cls[width=100% cellspacing=0 cellpadding=0]>(thead>tr>th{标题}*3)+(tbody>tr>td{内容}*3)]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

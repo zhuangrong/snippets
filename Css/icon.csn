@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="icon" description="">
+<insertText location="beforeSelection">
+<![CDATA[display: inline-block;
+	width: 10px;
+	height: 10px;	
+	vertical-align: middle;
+	background-image: url(../images/icon-.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

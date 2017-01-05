@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Item List Css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/**************列表 Item List**************/
+.item-list{
+	
+}
+.item-list dl{
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	padding: 5px 10px 5px 5px;
+	overflow: hidden;
+	background-image: url(../images/item-arrow.png);
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+	-webkit-background-size: 24px !important;
+	background-size: 24px !important;
+	-webkit-background-origin: content-box;
+	background-origin: content-box;
+}
+.item-list dl:active{
+	background-color: #ccc;		
+}
+.item-list dt{
+	float: left;
+	width: 64px;
+	height: 48px;
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;	
+}
+.item-list dd{
+	margin-left: 64px;	
+	padding-left: 5px;
+}
+.item-list dd .info-title{
+
+}
+.item-list dd .info-txt{
+	color: #aaa;
+	font-size: 13px;
+	
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

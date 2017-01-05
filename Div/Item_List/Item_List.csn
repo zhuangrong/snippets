@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Item List" description="1、产品列表
+2、设置列表">
+<insertText location="beforeSelection">
+<![CDATA[<div class="item-list">
+	<dl>
+		<dt style="background-image:url(images/pic.png);"></dt>
+		<dd>
+			<div class="info-title">Donald J. Trump</div>
+			<p class="info-txt">Boeing is building a brand new 747 Air Force</p>
+		</dd>
+	</dl>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
