@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Avatar css2-center" description="">
+<snippet name="Avatar css2-center" description="头像居中
+">
 <insertText location="beforeSelection">
 <![CDATA[.avatar-wrap{
 	height: 150px;
