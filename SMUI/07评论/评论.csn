@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="评论" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="comment">
+		<input type="text" placeholder="请输入内容">
+		<button>发布</button>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

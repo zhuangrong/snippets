@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="小按钮css" description="">
+<insertText location="beforeSelection">
+<![CDATA[.btn{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	padding:0 15px;
+	margin:0 auto;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;	
+	overflow: hidden;
+	color: #fff;
+	background-color: #f60;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

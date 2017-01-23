@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="输入" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form">
+	<ul>
+		<li>
+			<span>姓名</span>
+			<input type="text" placeholder="请输入姓名">
+		</li>
+		<li>
+			<span>详细地址</span>
+			<input type="text" placeholder="请输入地址">
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

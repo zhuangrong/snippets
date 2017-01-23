@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="小按钮" description="">
+<insertText location="beforeSelection">
+<![CDATA[<button class="btn">小按钮</button>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

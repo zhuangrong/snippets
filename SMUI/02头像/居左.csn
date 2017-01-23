@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="居左" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="avatar-wrap2">
+	<i class="avatar" style="background-image:url(images/avatar.png);"></i>
+	<span>昵称<em>明天会更好</em></span>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

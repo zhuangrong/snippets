@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="长按钮css" description="">
+<insertText location="beforeSelection">
+<![CDATA[a.btn2{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+  margin:0 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f30;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

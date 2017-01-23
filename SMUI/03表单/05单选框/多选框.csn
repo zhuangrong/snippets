@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="多选框" description="">
+<insertText location="beforeSelection">
+<![CDATA[<label><input type="checkbox" name="" class="checkbox">option2</label>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

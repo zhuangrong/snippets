@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Vertical Align Css" description="垂直居中">
 <insertText location="beforeSelection">
-<![CDATA[display:-webkit-flex;
+<![CDATA[display: -webkit-box;
+display: -webkit-flex;
+display: flex;
 -webkit-align-items: center;
 -webkit-box-align: center;
 justify-content: center;]]>

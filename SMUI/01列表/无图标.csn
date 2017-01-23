@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="无图标" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="list">
+	<ul>
+		<li>
+			<a class="cell" href="javascript:">信用<label class="tip">良好</label></a>
+		</li>
+		<li>
+			<a class="cell" href="javascript:">理财</a>
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="有图标" description="li >  a      有链接
+li >  div   无链接">
+<insertText location="beforeSelection">
+<![CDATA[<div class="list">
+	<ul>
+		<li>
+			<i class="icon-list icon01"></i>
+			<a class="cell" href="javascript:">账单</a>
+		</li>
+		<li>
+			<i class="icon-list icon01"></i>
+			<a class="cell" href="javascript:">
+			余额
+			<label class="tip">888888.88</label>
+			</a>
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

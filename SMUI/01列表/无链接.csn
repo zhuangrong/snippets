@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="无链接" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="list">
+	<ul>
+		<li class="no-link">
+			<div  class="cell">
+				标题
+				<label class="tip">说明</label>
+			</div>
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

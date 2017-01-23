@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="长按钮" description="">
+<insertText location="beforeSelection">
+<![CDATA[<a href="javascript:;" class="btn2">长按钮</a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
