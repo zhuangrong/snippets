@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="幻灯片css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*幻灯片*/
+.swiper01{
+	height: 140px;
+	background-color: #ccc;
+}
+.swiper01 .swiper-pagination-bullet{
+	width:5px !important;
+	height:5px !important;
+	background:#fff !important;
+	margin:0 3px !important;
+}
+.swiper01 .swiper-pagination-bullet-active {
+	background:rgba(255,255,255,0.6) !important;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

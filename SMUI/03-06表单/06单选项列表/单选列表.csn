@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="单选列表" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="wrap radio-list">
+	<label><input class="radio" type="radio" name="rad">male</label>
+	<label><input class="radio" type="radio" name="rad">female</label>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="复选列表" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="wrap checkbox-list">
+	<label><input type="checkbox" name="" class="checkbox" checked>option1</label>
+	<label><input type="checkbox" name="" class="checkbox">option2</label>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="标题栏" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="header">
+	<a class="icon-back" href="javascrit:"></a>
+	标题
+	<a class="icon-user" href="javascrit:"></a>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

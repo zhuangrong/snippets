@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="标签栏" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="tabs" id="tabs">
+	<ul>
+		<li class="curr">今天</li>
+		<li>明天</li>
+		<li>后天</li>
+	</ul>
+</div>
+<div class="tab-box1">
+	<div>内容：今天</div>
+	<div>内容：明天</div>
+	<div>内容：后天</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

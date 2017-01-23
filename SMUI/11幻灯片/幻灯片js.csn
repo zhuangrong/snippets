@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="幻灯片js" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script src="js/swiper.min.js"></script> 
+<link rel="stylesheet" href="css/swiper.min.css" />  
+<script>
+$(function(){
+	/*Siwper*/
+	var swiper01 = new Swiper('#slide01', {
+										pagination: '.swiper-pagination',
+										autoplay:2000
+									});
+
+});
+</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

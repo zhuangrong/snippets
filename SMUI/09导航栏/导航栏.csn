@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="导航栏" description="">
+<insertText location="beforeSelection">
+<![CDATA[<nav>
+	<a href="#" class="active"><i class="icon-home"></i>首页</a>
+	<a href="#"><i class="icon-push"></i>发布</a>
+	<a href="#"><i class="icon-user"></i>个人中心</a>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="单选列表css " description="">
+<insertText location="beforeSelection">
+<![CDATA[/*单选项列表*/
+.radio-list > label{
+	display: block;
+	width: 100%;
+	padding: 5px 10px 10px;
+	border-bottom: 1px solid #eee;
+}
+.radio-list > label input[type=radio]{
+	float: right;
+	margin-right: 20px;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
