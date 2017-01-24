@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="轻提示" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div id="toast" style="display:none;">
+	<div class="toast-mask"></div>
+	<div class="toast">
+		<i class="loading"></i>
+		<p>加载中...</p>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

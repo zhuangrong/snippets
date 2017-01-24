@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="轻提示js" description="">
+<insertText location="beforeSelection">
+<![CDATA[//弹出轻提示
+	$(".btn2").on("click",function(){
+		 $("#toast").show()
+		 timer = window.setTimeout(function(){
+		   $("#toast").hide()
+		 },2000)
+	})]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

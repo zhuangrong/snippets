@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="对话框" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div id="dialog" style="display: none">
+	<div class="mask"></div>
+	<div class="dialog">
+		<div class="dialog-header">标题</div>
+		<div class="dialog-body">对话框内容区域对话框内容区域对话框内容区域对话框内容区域</div>
+		<div class="dialog-footer">
+			<button class="btn">按钮1</button>
+			<button class="btn">按钮2</button>
+		</div>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="底弹菜单" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div>
+	<div class="mask"></div>
+	<div class="actionSheet">
+		<ul>
+			<li>动作一</li>
+			<li>动作二</li>
+			<li>动作三</li>
+		</ul>
+		<a href="javascript:;" class="action-cancel">取消</a>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

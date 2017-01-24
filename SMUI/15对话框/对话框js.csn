@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="对话框js" description="">
+<insertText location="beforeSelection">
+<![CDATA[//对话框
+	$(".btn2").on("click",function(){
+		 $("#dialog").show(300)		 
+	})
+	
+	//点击遮罩层隐藏
+	$(".mask").on("click",function(e){
+			e.stopPropagation()
+			$("#dialog").hide(300)
+	})]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
