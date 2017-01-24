@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="搜索栏" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="searchbar">
+			<input type="text" placeholder="搜索">
+			<button>取消</button>
+	</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

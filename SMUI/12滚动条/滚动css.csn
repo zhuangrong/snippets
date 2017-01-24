@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="滚动css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*滚动iscroll*/
+#wrapper{
+	position:absolute;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid  #ccc;
+}
+#scroller {
+	position: absolute;
+	left:5px;
+	right:5px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	padding-bottom: 20px;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

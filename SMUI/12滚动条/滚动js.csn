@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="滚动js" description="">
+<insertText location="beforeSelection">
+<![CDATA[//滚动iscroll
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper',{
+			tap:true,
+			click:false, 
+	  	scrollbars: true,
+		  shrinkScrollbars: 'scale', //触底或触顶滚动条伸缩
+			fadeScrollbars: true,
+			preventDefaultException:{tagName:/.*/}//解除默认事件锁定，调用tab，click等事件,不支持swipeleft
+		});
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

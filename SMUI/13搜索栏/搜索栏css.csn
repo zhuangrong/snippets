@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="搜索栏css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*搜索栏*/
+.searchbar{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/*子元素垂直居中*/
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	padding: 0 5px 0  5px;
+	background-color: #fff;
+}
+.searchbar input[type=text]{
+	width: 100%;
+  height: 26px;
+	line-height: 26px;
+	padding-left: 28px;
+  border-radius: 3px;
+  text-align: center;
+	font-size: 14px;
+  color: #000;
+	background: #fff;
+	border: 1px solid #ddd;	
+  background-image: url(images/icon-search.png);
+  background-position: 46% 60%;
+  background-size: 18px 18px !important;	
+}
+.searchbar input[type=text].focus{	
+	background-position: 5px 60%;
+	text-align: left;
+}
+.searchbar button{
+	width: 60px;
+	text-align: center;
+	color: #555;
+	display: none;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

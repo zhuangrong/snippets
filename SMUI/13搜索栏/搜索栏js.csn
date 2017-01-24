@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="搜索栏js" description="">
+<insertText location="beforeSelection">
+<![CDATA[//搜索
+	$(".searchbar input[type=text]").focus(function(){
+		if($(this).attr("placeholder") == "搜索"){
+			$(this).addClass("focus")
+			$(this).next().show()
+		}
+	})
+	$(".searchbar button").on("click",function(){
+			$(this).prev().removeClass("focus");
+		  $(this).hide()
+	})	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="滚动" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div id="wrapper">
+	<ul id="scroller">
+		<li>全部活动</li>
+		<li>亲子旅游</li>
+		<li>亲子周边游</li>
+		<li>兴趣班</li>
+		<li>夏令营</li>
+		<li>教学</li>
+		<li>团队定制</li>
+		<li>全部活动</li>
+		<li>亲子旅游</li>
+		<li>亲子周边游</li>
+		<li>兴趣班</li>
+		<li>夏令营</li>
+		<li>教学</li>
+		<li>团队定制</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
