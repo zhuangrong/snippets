@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="上传多张" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="uploader-wrap">
+	<ul class="uploader-pic" id="uploader-pic">
+			<li style="background-image:url(images/avatar.png)"><i class="del"></i></li>
+	</ul>
+	<div class="uploader-file">
+			<input id="uploader-file" type="file" accept="image/*" multiple />
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

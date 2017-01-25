@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="上下css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*表单左右#3b*/	
+.form2 {
+	background-color: #fff;
+}
+.form2 li {
+	padding: 10px 10px;
+	border-bottom: 1px solid  #ddd;
+}
+.form2 li label{
+	display: block;
+	padding-bottom: 5px;
+}
+.form2 li input[type=text]{
+	width: 100%;
+	line-height: 2.3;
+}
+.form2 li textarea{
+	display: block;
+	border: 0;
+	resize: none;
+	width: 100%;
+	color: inherit;
+	font-size: 1em;
+	line-height: inherit;
+	outline: 0;
+}	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="上传单张js" description="">
+<insertText location="beforeSelection">
+<![CDATA[	  //图片上传-单张
+		var $uploaderFile = $("#uploader-file"),
+				$uploaderPic = $("#uploader-pic")
+
+		$uploaderFile.on("change", function(e){
+				var file = this.files[0];
+				var r = new FileReader();
+				r.readAsDataURL(file);
+			  $(r).load(function() {
+						$(".uploader-file").css({"opacity":"0"}); 
+						$uploaderPic.html('<li style="background-image:url('+ this.result +')"></li>');
+				})
+				
+							
+		});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

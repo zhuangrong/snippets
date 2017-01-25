@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="输入css" description="">
+<snippet name="左右css" description="">
 <insertText location="beforeSelection">
-<![CDATA[.form li {
+<![CDATA[/*表单左右#3a*/
+.form li {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;

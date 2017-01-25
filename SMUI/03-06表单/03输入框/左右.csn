@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="输入" description="">
+<snippet name="左右" description="">
 <insertText location="beforeSelection">
 <![CDATA[<div class="form">
 	<ul>
