@@ -3,13 +3,13 @@
 <insertText location="beforeSelection">
 <![CDATA[//对话框
 	$(".btn2").on("click",function(){
-		 $("#dialog").show(300)		 
+		 $("#dialog").fadeIn(200)
 	})
 	
 	//点击遮罩层隐藏
 	$(".mask").on("click",function(e){
 			e.stopPropagation()
-			$("#dialog").hide(300)
+			 $("#dialog").fadeOut(200)		 
 	})]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

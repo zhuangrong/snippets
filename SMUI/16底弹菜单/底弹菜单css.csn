@@ -10,9 +10,7 @@
 	left: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.6);
-	opacity: 0;
 	display: none;
-	-webkit-transition: opacity .2s;
 }
 .actionSheet{
 	position: fixed;
@@ -46,7 +44,8 @@
 }
 .actionSheet.show{
 	-webkit-transform: translateY(0);
-}]]>
+}
+]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
