@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="图文列表css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*图文列表*/
+.pic-list{
+	display: -webkit-box; 
+	display: -webkit-flex;
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid  #f2f2f2;
+}
+.pic-list .pic{
+	width: 90px;
+	height: 60px;
+	background-image: url(../images/pic01.png)
+}
+.pic-list .info{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+  flex:1;
+	padding: 0 15px;
+}
+.pic-list .info p:last-child span{
+	float: right;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

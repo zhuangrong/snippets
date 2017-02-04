@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="垂直排列" description="">
+<insertText location="beforeSelection">
+<![CDATA[<nav>
+	<a href="#" class="active"><i class="icon-nav01"></i><span>商城首页</span></a>
+	<a href="#"><i class="icon-nav02"></i><span>联盟商家</span></a>
+	<a href="#"><i class="icon-nav03"></i><span>商家入驻</span></a>
+	<a href="#"><i class="icon-nav04"></i><span>个人中心</span></a>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
