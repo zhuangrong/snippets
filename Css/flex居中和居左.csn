@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="flex" description="">
+<snippet name="flex居中和居左" description="">
 <insertText location="beforeSelection">
 <![CDATA[/*flex布局*/
 .flex-wrap ul{
