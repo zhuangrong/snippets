@@ -62,7 +62,9 @@ button {
 	border: none;
 	outline: 0;
 }
-]]>
+em,h3{
+	font:inherit
+}]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
