@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Tabs" description="标签栏
-">
-<insertText location="beforeSelection">
-<![CDATA[.flex-tab#tabs>ul>li.curr{文本}+li{文本}*2^^.tab-box1>div{内容$}*3]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

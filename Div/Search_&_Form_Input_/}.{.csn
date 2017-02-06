@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="}.{" description="json中用于多个键值对">
-<insertText location="beforeSelection">
-<![CDATA[}, {]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>
