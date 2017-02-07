@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="图文按钮" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form3">
+	<ul>
+		<li>
+			<i class="icon01"></i>
+			<input type="text" placeholder="手机号">
+			<button class="btn">获取验证码</button>
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

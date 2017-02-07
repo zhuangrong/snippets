@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="数量加减" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="spinner"></div>
+	<span id="price">￥2000</span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

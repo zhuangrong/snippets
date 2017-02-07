@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="文本框" description="">
+<insertText location="beforeSelection">
+<![CDATA[.texta{
+	width: 100%;
+	min-height: 30px;
+	padding: 10px;
+	border: 1px solid  #808080;
+	border-radius: 5px;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="图片并排css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*图片并排*/
+.pic-show{
+	padding: 15px;
+}
+.pic-show ul{
+	display: -webkit-box; 
+	display: -webkit-flex;
+	display: flex;	
+}
+.pic-show li{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+  flex:1;
+	margin: 5px 10px;
+	text-align:center;
+	font-size: 13px;
+	background-color: #ccc;
+}
+.pic-show li p{
+	padding: 5px 0 0;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

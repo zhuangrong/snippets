@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="图文按钮css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*图标+文字+按钮#3c*/	
+.form3{
+	background-color: #fff;
+}
+.form3 ul li{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	height: 45px;
+	padding: 0 8px;
+	border-bottom: 1px solid  #ddd;
+}
+.form3 ul li input{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	height: 100%;
+	margin: 0 10px;
+	padding: 0 5px;
+	border: none;
+}
+.icon01{
+	width: 22px;
+	height: 22px;	
+}
+.icon01{
+	background-image: url(images/icon01.png)
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

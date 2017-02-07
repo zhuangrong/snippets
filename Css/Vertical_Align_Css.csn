@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Vertical Align Css" description="垂直居中">
 <insertText location="beforeSelection">
-<![CDATA[display: -webkit-box;
-display: -webkit-flex;
-display: flex;
--webkit-align-items: center;
--webkit-box-align: center;
-justify-content: center;]]>
+<![CDATA[	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	justify-content: center;
+
+               /*适配/
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+  flex:1;]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

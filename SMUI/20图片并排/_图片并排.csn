@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=" 图片并排" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="pic-show">
+	<ul>
+		<li>
+			<img src="images/pic.png" alt="">
+			<p>北京-故宫</p>
+		</li>
+		<li>
+			<img src="images/pic.png" alt="">
+			<p>北京-故宫</p>
+		</li>
+		<li>
+			<img src="images/pic.png" alt="">
+			<p>北京-故宫</p>
+		</li>
+	</ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

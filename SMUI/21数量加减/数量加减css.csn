@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="数量加减css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*spinner数量加减*/
+.spinner{
+	overflow: hidden;
+}
+.spinner a{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	text-indent: 999px;
+	vertical-align: middle;
+	margin: 0 0 0.3rem;
+}
+.spinner a.DisDe,
+.spinner a.Decrease{
+	background-image: url(images/icon-decrease.png)
+}
+.spinner a.Increase{
+	background-image: url(images/icon-increase.png)
+}
+.spinner input{
+	display: inline-block;
+	width: 38px;
+	height: 19px;
+	margin: 0 5px;
+	text-align: center;
+	color: #808080;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid  #b3b3b3;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
