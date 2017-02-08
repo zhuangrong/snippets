@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="校验弹出js" description="">
+<insertText location="beforeSelection">
+<![CDATA[//表单验证错误 #3d
+	$(".btn").on("click",function(){
+		var  $toast = $(".form-toast")	
+		$toast.addClass('show')
+		setTimeout(function(){
+		   $toast.removeClass('show')
+		 },2000)		 
+	})]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

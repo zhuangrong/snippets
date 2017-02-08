@@ -3,8 +3,9 @@
 <insertText location="beforeSelection">
 <![CDATA[<div class="header">
 	<a class="icon-back" href="javascrit:"></a>
-	标题
-	<a class="icon-user" href="javascrit:"></a>
+	<span>标题</span>
+  <!--<a class="icon-man" href="javascrit:"></a>-->
+	<a class="share" href="#">分享</a>
 </div>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

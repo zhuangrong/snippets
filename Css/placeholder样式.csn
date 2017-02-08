@@ -1,12 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="文本框" description="">
+<snippet name="placeholder样式" description="">
 <insertText location="beforeSelection">
-<![CDATA[
-.texta{
-	width: 100%;
-	padding: 10px;
-	border: 1px solid  #808080;
-	border-radius: 5px;
+<![CDATA[.searchbar input::-webkit-input-placeholder {
+	color:#808080;
 }]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

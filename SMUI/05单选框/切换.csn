@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="文本框" description="">
+<snippet name="切换" description="">
 <insertText location="beforeSelection">
-<![CDATA[
-.texta{
-	width: 100%;
-	padding: 10px;
-	border: 1px solid  #808080;
-	border-radius: 5px;
-}]]>
+<![CDATA[<input class="switch" type="checkbox">]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

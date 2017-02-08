@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="展开隐藏" description="">
+<insertText location="beforeSelection">
+<![CDATA[$(".select-addr").on("click",function(){
+		$(".unfold").toggleClass("retract"); /*图标*/
+		$("#address-wrap").toggle();/*内容区域*/
+		
+	})]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

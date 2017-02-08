@@ -12,18 +12,19 @@ nav{
 	display: flex;
 	height: 44px;
 	background-color: #fff;
-  background-color: rgb(255, 255, 255);
 	border-top: 1px solid  #ccc;
 }
 nav a{
 	-webkit-box-flex:1;
 	-webkit-flex:1;
   flex:1;
-	width:0%;/*必须有*/
-	display: block;
-	height:44px;
-	line-height: 44px;
-	text-align:center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/*flex-direction:column; */ /*纵向*/
+	-webkit-align-items: center; /*垂直方向*/
+	-webkit-box-align: center;
+	justify-content: center; /*水平方向*/
 	font-size: 13px;
 	color: #808080;
 }
@@ -31,11 +32,9 @@ nav a.active{
 	color: #f30;
 }
 nav a i{
-	display: inline-block;
 	width: 20px;
-	height: 35px;	
-	vertical-align: middle;
-	margin: 0 5px 5px;
+	height: 35px;
+	margin-right: 5px; /*切换纵横时修改*/
 }
 nav a i.icon-home{	
 	background-image: url(images/icon-home.png);
@@ -46,14 +45,8 @@ nav a.active i.icon-home{
 nav a i.icon-push{	
 	background-image: url(images/icon-push.png);
 }
-nav a.active i.icon-push{	
-	background-image: url(images/icon-push-active.png);
-}
 nav a i.icon-user{	
 	background-image: url(images/icon-user.png);
-}
-nav a.active i.icon-user{	
-	background-image: url(images/icon-user-active.png);
 }]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

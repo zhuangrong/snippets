@@ -27,7 +27,7 @@ li {
 	-webkit-user-select: none;
 }
 a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-tap-highlight-color: transparent;

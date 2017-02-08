@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="校验弹出css" description="">
+<insertText location="beforeSelection">
+<![CDATA[/*提交错误提示#3d*/		
+.form-toast{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	-webkit-transform: translateY(-100%);
+	-webkit-transition: -webkit-transform .3s;
+	padding: 10px;
+	color: #fff;
+	background-color: rgba(255,0,0,.8);
+}
+
+.form-toast.show{
+	-webkit-transform: translateY(0);
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

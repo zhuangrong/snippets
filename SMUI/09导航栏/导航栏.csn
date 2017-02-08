@@ -2,9 +2,9 @@
 <snippet name="导航栏" description="">
 <insertText location="beforeSelection">
 <![CDATA[<nav>
-	<a href="#" class="active"><i class="icon-home"></i>首页</a>
-	<a href="#"><i class="icon-push"></i>发布</a>
-	<a href="#"><i class="icon-user"></i>个人中心</a>
+	<a href="#" class="active"><i class="icon-home"></i><span>首页</span></a>
+	<a href="#"><i class="icon-push"></i><span>发布</span></a>
+	<a href="#"><i class="icon-user"></i><span>个人中心</span></a>
 </nav>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

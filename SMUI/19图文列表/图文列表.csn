@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="图文列表" description="">
 <insertText location="beforeSelection">
-<![CDATA[<div class="pic-article">
+<![CDATA[<a href="#" class="pic-article">
 	<div class="pic">
 		<img src="images/pic.png">
 	</div>
@@ -12,7 +12,7 @@
 			2016-10-11 17:58 <em>喜欢</em>
 		</p>
 	</div>
-</div>]]>
+</a>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
